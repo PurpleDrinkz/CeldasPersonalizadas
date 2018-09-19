@@ -14,6 +14,7 @@
 		3DBD85062151D83200D05A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBD85042151D83200D05A3B /* LaunchScreen.storyboard */; };
 		3DBD85112151D83200D05A3B /* CeldasPersonalizadasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD85102151D83200D05A3B /* CeldasPersonalizadasTests.swift */; };
 		3DBD851C2151D83300D05A3B /* CeldasPersonalizadasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD851B2151D83300D05A3B /* CeldasPersonalizadasUITests.swift */; };
+		3DBD852A2151DA3D00D05A3B /* CeldaAlumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBD85292151DA3D00D05A3B /* CeldaAlumno.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3DBD85172151D83300D05A3B /* CeldasPersonalizadasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeldasPersonalizadasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DBD851B2151D83300D05A3B /* CeldasPersonalizadasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldasPersonalizadasUITests.swift; sourceTree = "<group>"; };
 		3DBD851D2151D83300D05A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBD85292151DA3D00D05A3B /* CeldaAlumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				3DBD84FB2151D83100D05A3B /* AppDelegate.swift */,
+				3DBD85292151DA3D00D05A3B /* CeldaAlumno.swift */,
 				3DBD84FD2151D83100D05A3B /* ViewController.swift */,
 				3DBD84FF2151D83100D05A3B /* Main.storyboard */,
 				3DBD85022151D83200D05A3B /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DBD84FE2151D83100D05A3B /* ViewController.swift in Sources */,
+				3DBD852A2151DA3D00D05A3B /* CeldaAlumno.swift in Sources */,
 				3DBD84FC2151D83100D05A3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
